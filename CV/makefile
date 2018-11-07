@@ -1,4 +1,4 @@
-all: fr en mini short nano clean
+all: fr en mini short nano mv clean
 
 fr: 
 	pdflatex CVFerdjoukh.tex
@@ -23,4 +23,9 @@ nano:
 clean:
 	rm *.aux
 	rm *.out
-	rm *.log	
+	rm *.log
+	rm *.blg
+	rm *.bbl	
+
+mv:
+	mv *.pdf pdf/
