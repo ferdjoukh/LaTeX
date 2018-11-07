@@ -1,0 +1,117 @@
+\usepackage[utf8]{inputenc}   % accents dans le source
+\usepackage[T1]{fontenc}        % accents dans le DVI
+\usepackage{url}                % citer des adresses électroniques et des URL
+
+\usepackage[total={6.5in,8.75in},top=1.1in, left=0.99in, right=0.99in]{geometry}
+
+\geometry{hmargin=2.5cm,vmargin=2cm}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+pdfborder={0 0 0 [3 3]},
+pdftitle={{CV Adel Ferdjoukh}},
+pdfauthor={Adel Ferdjoukh},
+colorlinks=false
+}
+
+\newcommand{\nb}[2]{
+    \fbox{\bfseries\sffamily\scriptsize#1}
+    {\sf\small\textit{\textcolor{red}{#2}}}
+}
+
+\newcommand\ad[1]{\nb{Adel}{#1}}
+\newcommand\adel[1]{\nb{Adel}{#1}}
+\newcommand\Adel[1]{\nb{Adel}{#1}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand\headrulewidth{0pt}
+\fancyhead{~}
+\fancyfoot[C]{update \today}
+\fancyfoot[L]{CV $-$ Adel Ferdjoukh}
+\fancyfoot[R]{\thepage}
+\def«{\og\ignorespaces}
+\def»{{\fg}}
+
+% For big titles
+\newcommand{\mytitle}[1]{%
+	%\rule{\textwidth}{.3pt}
+	\par
+  %\vspace{0.1cm}
+   ~~\textbf{{#1}}
+   \vspace{-2mm}
+  
+	\rule{\textwidth}{.3pt}
+	}
+
+%titles in left
+\newcommand{\lefttitle}[1]{%
+  \begin{flushleft}
+  \mytitle{#1}
+  \end{flushleft}
+  %\bigskip
+  }
+
+%titles in right
+\newcommand{\righttitle}[1]{%
+  \begin{flushleft}
+  \mytitle{#1}
+  \end{flushleft}
+  %\bigskip
+  }
+
+%Define notes
+\newcommand{\note}[1]{
+    \vspace{3mm}
+    \rule{0.3\textwidth}{0.2mm}
+    \par\vspace{1mm}
+    {\bf Note:} #1}
+
+\newcommand{\tair}{\vspace{3mm}}
+\newcommand{\air}{\vspace{3mm}}
+\newcommand{\oair}{\vspace{1mm}}
+
+
+\newcommand{\fr}{\includegraphics[scale=0.02]{fr.png}}
+\newcommand{\dz}{\includegraphics[scale=0.02]{dz.png}}
+\newcommand{\kab}{\includegraphics[scale=0.02]{kab.png}}
+
+\newcommand{\web}{\includegraphics[scale=0.15]{web.png}}
+\newcommand{\email}{\includegraphics[scale=0.15]{email.png}}
+\newcommand{\phone}{\includegraphics[scale=0.15]{phone.png}}
+
+\newcommand{\grimm}{$\mathcal{G}$\textsc{rimm}}
+\newcommand{\grimmtext}{$\mathcal{G}$ene\textsc{r}ating \textsc{i}nstances of \textsc{m}eta-\textsc{m}odels}
+\DeclareRobustCommand{\grrimm}{$\mathcal{G}$\reflectbox{\textsc{r}}\textsc{rimm}}
+\DeclareRobustCommand{\grrimmtext}{$\mathcal{G}$enerating \reflectbox{\textsc{r}}andomized and \textsc{r}elevant \textsc{i}nstances of \textsc{m}eta-\textsc{m}odels}
+\newcommand{\comodi}{\textsc{comodi}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    %
+%  Biblio                            %
+%                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{natbib}
+\usepackage{bibentry}
+\bibliographystyle{plainnat}
+
+\usepackage[object=vectorian]{pgfornament} %%  http://altermundus.com/pages/tkz/ornament/index.html
+
+\usepackage{tikz}
+
+\newcommand{\sectionline}{%
+  \noindent
+  \begin{center}
+  {\color{black}
+    \resizebox{0.5\linewidth}{1ex}
+    {{%
+    {\begin{tikzpicture}
+    \node  (C) at (0,0) {};
+    \node (D) at (9,0) {};
+    \path (C) to [ornament=85] (D);
+    \end{tikzpicture}}}}}%
+    \end{center}
+  }

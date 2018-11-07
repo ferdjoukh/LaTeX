@@ -1,0 +1,210 @@
+\section{Activités de recherche}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %                                                       %
+    % Phd   
+    %                                                       %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Thèse de doctorat}
+
+Ma thèse de doctorat ({\it titre: Une approche déclarative pour la génération de modèles}) s'est déroulée au laboratoire Lirmm à Montpellier au sein de l'équipe Marel. Durant ma thèse, j'ai travaillé sous la supervision de Mme. Marianne Huchard (directrice de thèse) et Mme. Clémentine Nebut (Co-directrice de thèse). J'ai soutenu ma thèse le 20 octobre 2016 en présence du jury suivant:
+
+\begin{tabular}{m{1cm}@{$-~$}lll}
+&Pr. Jean-Michel Bruel& Toulouse    & Rapporteur \\
+&Pr. Michel Rueher    & Nice        & Rapporteur \\
+&Pr. Carmen Gervet    & Montpellier & Présidente du jury.\\
+&Pr. Frank Barbier    & Pau         & Examinateur. \\
+&Pr. Marianne Huchard & Montpellier & Directrice de thèse.\\
+&Dr. Clémentine Nebut & Montpellier & Co-directrice de thèse.\\
+&Dr. Eric Bourreau    & Montpellier & Invité. \\
+&Dr. Annie Chateau    & Montpellier & Invitée.\\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    Abstract thèse                                     %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{Résumé}
+
+La thèse s'est déroulée dans le contexte de l'Ingénierie Dirigée par les Modèles (IDM). l'IDM est un paradigme du génie logiciel qui offre une place de choix aux modèles dans le processus de développement logiciel. Le modèle est ici défini et structuré par un modèle plus abstrait nommé méta-modèle. Ce dernier est le plus souvent accompagné de contraintes écrites dans le langage OCL (Object Constraint Language).
+
+Disposer de modèles dans le but de valider ou tester une approche ou un concept est d'une importance primordiale dans beaucoup de domaines différents. Malheureusement, ces modèles ne sont pas toujours disponibles, sont coûteux à obtenir, ou bien ne répondent pas à certaines exigences de qualité ce qui les rend inutiles dans certains cas de figure.
+
+Un générateur automatique de modèles est un bon moyen pour obtenir facilement et rapidement des modèles valides, de différentes tailles, pertinents et diversifiés.
+
+Dans cette thèse nous avons proposé une nouvelle approche déclarative et basée sur la programmation par contraintes pour la génération de modèles. Ces derniers sont modélisés sous la forme d'un méta-modèle qui est ensuite formalisé efficacement en contraintes pour trouver des solutions. Dans l'optique d'obtenir des modèles utiles, nous nous intéressons à leur vraisemblance et diversité. La vraisemblance est obtenue par des lois de probabilités et des métriques spécifiques aux domaines. La diversité est assurée par des distances comparant les modèles couplées à de l'algorithmique génétique.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    Contribs thèse                                     %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{Principales contributions}
+
+\begin{enumerate}
+\item Une méthode de génération de modèles basée sur la programmation par contraintes. Notre méthode utilise les bonnes pratiques de modélisation en contraintes (CSP) dans le but de formaliser efficacement les éléments d'un méta-modèle en CSP pour générer des instances conformes, donc des modèles.
+
+\item Une formalisation, en CSP, des contraintes OCL qui accompagnent les méta-modèles. Ceci a pour effet de générer uniquement des modèles conformes au méta-modèle et valides, car ils respectent aussi les contraintes OCL.
+
+\item Une approche pour la génération de modèles pertinents et vraisemblables, proches des modèles réels. Des lois de probabilités usuelles sont déduites de métriques liées au domaine. La simulation de ces lois, et l'injection des échantillons ainsi obtenus au processus de génération, permet d'améliorer grandement la qualité des modèles générés automatiquement.
+
+\item Des distances basées sur des distances mathématiques ou de graphes connues et adaptées aux modèles. Celles-ci ont  pour but de comparer deux modèles, puis d'estimer la diversité d'un ensemble de modèles.
+
+\item Une approche basée sur l'algorithmique génétique pour améliorer la diversité d'ensembles de modèles. L'ensemble de modèles de départ est vu comme une population qui doit évoluer dans le but d'améliorer une fonction objectif. Dans notre cas, l'objectif est d'augmenter les distances entre modèles de l'échantillon.   
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    Grimm                                              %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{Production technique}
+
+Le travail effectué durant ma thèse a donné naissance à un outil nommé \grimm(\grimmtext). L'outil a pour fonction la génération de modèles (instances) conformes à des méta-modèle au format logiciel. \grimm{} utilise le solveur de contraintes {\it Abscon} pour résoudre le CSP produit au cours du processus de génération.
+
+\grimm{} peut être utilisé sous différentes formes: exécutable en ligne de commande, plug-in intégré à l'environnement Eclipse ou encore directement sur le web\footnote{\grimm{} sur le web: \url{http://info-demo.lirmm.fr/grimm/}.}.
+
+Par ailleurs, le module distance de \grimm{} peut-être utilisé indépendamment d'un processus de génération d'instances. Il est possible de s'en servir pour comparer des modèles réels. 
+
+\paragraph*{Utilisateurs} L'outil \grimm{} a été confronté à des différents cas d'utilisation réels. L'objectif était la génération de modèles ou bien la validation de méta-modèles. Parmi les utilisateurs les plus notables de \grimm{}, je cite:
+
+\begin{itemize}
+\item Ra'fat Al Messaidiain, un doctorant du laboratoire Lirmm, a utilisé \grimm{} pour valider son méta-modèle de Feature.
+\item Des chercheurs bio-informaticiens du Lirmm utilisent régulièrement l'outil pour générer des graphes de scaffold.
+\item Un TP en Master 2 génie logiciel regroupant $40$ étudiants a été mené en utilisant l'outil.
+\item Plusieurs chercheurs internationaux ont utilisé l'outil dans le but de citer nos travaux.
+\end{itemize}
+
+Aujourd'hui (5/12/2016), la page qui compte le nombre d'utilisations en ligne de l'outil affiche $218$ lancements\footnote{Compteur d'utilisations de \grimm{} en ligne: \url{http://info-demo.lirmm.fr/grimm/visites.txt}.}. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    %
+%  ATER                              %
+%                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{ATER à Nantes}
+
+Dans l'équipe Atlanmod, je m'intéresse au test de programmes manipulant les modèles, les transformations de modèles. Le but de mon travail actuel est de détecter des anomalies dans une transformation de modèles. Pour ce faire, nous générons des modèles d'entrée de cette transformation, puis nous exécutons cette dernière. Le résultat (échec, résultat erroné) de cette exécution nous renseignera sur la fiabilité de la transformation.
+
+Dans une deuxième étape, nous devons détecter les parties de modèles qui ont conduit à l'échec ou bien au résultat erroné, puis tenter de les corriger.
+
+Ce travail est en cours. Il fera intervenir des résultats de l'équipe Atlanmod et des contributions issues de ma thèse de doctorat. Il se fait également en collaboration avec une équipe de chercheurs du {\bf laboratoire Simula à Oslo, Norvège}.
+
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %                                                       %
+    %  Publis                                               %    
+    %                                                       %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Publications en conférences internationales}
+
+{\bf Note:} Tous les articles qui apparaissent dans la liste ci-après ont été publiés dans des conférences internationales, avec comités de lectures et actes. 
+
+
+\begin{itemize}
+\vspace{2mm}
+\item \bibentry{ferdjoukh17}
+\vspace{2mm}
+\item \bibentry{galinier16}
+\vspace{2mm}
+\item \bibentry{ferdjoukh16}
+\vspace{2mm}
+\item \bibentry{ferdjoukh15}
+\vspace{2mm}
+\item \bibentry{ferdjoukh13}
+\vspace{2mm}
+\end{itemize}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %                                                       %
+    %  Posters                                              %    
+    %                                                       %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Posters}
+
+\begin{itemize}
+\item \bibentry{posterGdrGpl}
+\vspace{1mm}
+\item \bibentry{posterDoctiss}
+\end{itemize}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %                                                       %
+    %  Talks                                                %    
+    %                                                       %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Talks}
+
+\subsubsection*{Conférences internationales}
+
+\begin{itemize}
+\item \bibentry{slidesAthens}
+\item \bibentry{slidesSeke}
+\item \bibentry{slidesModelsward}
+\item \bibentry{slidesIctai}
+\end{itemize}
+
+\subsubsection*{Conférences nationales}
+
+\begin{itemize}
+\item \bibentry{slidesGle}
+\item \bibentry{slidesGdrGpl}
+\end{itemize}
+
+\subsubsection*{Invitations}
+
+\begin{itemize}
+\item \bibentry{slidesOslo}
+\end{itemize}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %                                                       %
+    %  Stages                                               %    
+    %                                                       %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Stage encadrés}
+
+Durant ma thèse de doctorat j'ai participé à l'encadrement de plusieurs étudiants en stage de fin d'études ou d'été.
+
+\begin{tabular}{m{3cm}|m{6.2cm}m{1.6cm}m{2cm}m{0.5cm}} 
+    \hline
+    {\bf Étudiants} & {\bf Intitulé du stage} &{\bf Niveau} & {\bf Nature} & {\bf $\%$} \\
+    \hline
+    Olivier Perrier et Felix Vonthron & Encodage des contraintes OCL en CSP & Master 1 & Stage d'été & $80\%$ \\
+    Florian Galinier & Métriques et génération de programmes Java réalistes & Master 1 & Stage d'été & $80\%$ \\ 
+    Méddy Urie      & Réalisation d'un plug in Eclipse & Iut 2 & Fin d'études & $80\%$ \\
+    Florian Galinier & L'algorithmique génétique pour améliorer la diversité en IDM & Master 2 & Fin d'études & $25\%$ \\ 
+    Timothee Martinod et Florian Novellon & Animation vidéo de diagrammes de Voronoi & Licence 2 & Stage d'été & $30\%$ \\
+    \hline
+\end{tabular}
+
+\subsubsection*{Stage de recherche de Florian Galinier}
+
+Florian Galinier a effectué son stage de recherche de Master 2 au sein du laboratoire Lirmm de Montpellier (de 02/16 à 06/16). J'ai participé à l'encadrement de Florian en compagnie de Clémentine Nebut, Eric Bourreau et Annie Chateau. 
+
+Le projet de stage de Florian avait comme objectif la mise en place d'une approche basée sur l'algorithmique génétique pour améliorer la diversité des modèles en IDM. Cette approche devait se reposer sur les distances entre modèles développées durant ma thèse de doctorat et sur les méthodes de comparaison d'ensembles de modèles proposées par cette dernière.
+
+Florian a appliqué des algorithmes génétiques connus (NSGA II) avec beaucoup de succès. L'amélioration de la diversité a été très nette. Le travail effectué durant ce stage a donné naissance à un article court dans une conférence internationale avec comité de lecture et actes (conférence META).     
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %                                                       %
+    %  Divers recherche                                     %    
+    %                                                       %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Participation à la communauté scientifique}
+
+\paragraph*{Reviewer} J'ai relu des articles pour les conférences nationales et internationales suivantes:
+
+\begin{itemize}
+\item JFPC 2014,
+\item Modelsward 2016,
+\item ISSRE 2017,
+\item ICWE 2018 et
+\item RCIS 2018.
+\end{itemize}  
+
+\paragraph*{Comité de programme} depuis cette année 2018, je suis également membre du comité de programme d'une conférence internationale ICSEA (International Conference on Software Engineering Advances). 
