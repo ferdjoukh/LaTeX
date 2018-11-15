@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:maps="http://maps/1.0" name="Paris">
+  <roads xsi:type="maps:Boulevard" name="Champs Elysees"/>
+  <roads xsi:type="maps:Boulevard" name="Goerge V" length="1500" meet="//@roads.2"/>
+  <roads xsi:type="maps:Boulevard" name="ddd" length="2222"/>
+  <spaces xsi:type="maps:Square" name="Concorde"/>
+  <rounds name="Etoile" inRoads="//@roads.0 //@roads.1"/>
+</maps:map>

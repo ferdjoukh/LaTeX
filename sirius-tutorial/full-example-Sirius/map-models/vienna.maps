@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:maps="http://maps/1.0" name="Vienna">
+  <roads xsi:type="maps:Boulevard" name="Gurtel" length="10000"/>
+</maps:map>

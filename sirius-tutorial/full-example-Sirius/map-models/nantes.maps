@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:maps="http://maps/1.0" name="Nantes">
+  <roads xsi:type="maps:Boulevard" name="50 otages" length="2500"/>
+  <roads xsi:type="maps:Street" name="Verdun" length="1200" meet="//@roads.2"/>
+  <roads xsi:type="maps:Street" name="Mosson" length="900"/>
+  <roads xsi:type="maps:Boulevard" name="Anglais" length="1500" meet="//@roads.2" card="East"/>
+  <roads xsi:type="maps:Boulevard" name="Belges" length="1000" meet="//@roads.1" card="West"/>
+  <spaces xsi:type="maps:Garden" name="Jardin des plantes"/>
+  <spaces xsi:type="maps:Square" name="Place du Commerce"/>
+  <rounds name="Toertiere" inRoads="//@roads.0 //@roads.4"/>
+  <rounds name="gare" inRoads="//@roads.3 //@roads.0"/>
+</maps:map>

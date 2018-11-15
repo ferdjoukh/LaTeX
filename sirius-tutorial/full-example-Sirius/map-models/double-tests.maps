@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps:map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:maps="http://maps/1.0" name="testDouble">
+  <roads xsi:type="maps:Boulevard" name="test1"/>
+  <roads xsi:type="maps:Street" name="2"/>
+  <spaces xsi:type="maps:Garden"/>
+  <spaces xsi:type="maps:Square"/>
+</maps:map>
