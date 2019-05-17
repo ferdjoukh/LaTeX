@@ -24,8 +24,6 @@ clean:
 	rm *.aux
 	rm *.out
 	rm *.log
-	rm *.blg
-	rm *.bbl	
-
+	
 mv:
 	mv *.pdf pdf/
