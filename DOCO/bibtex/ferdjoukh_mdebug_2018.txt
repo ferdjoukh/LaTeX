@@ -1,0 +1,7 @@
+@inproceedings{ferdjoukh18c,
+author={Ferdjoukh, Adel and Mottu, Jean-Marie},
+booktitle={MDEbug@MODELS, International Workshop on Debugging in Model-Driven Engineering},
+title={Towards an Automated Fault Localizer while Designing Meta-models},
+year={2018},
+note={To appear},
+}

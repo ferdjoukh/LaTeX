@@ -1,0 +1,144 @@
+\documentclass{article} % fonte 11 points, papier a4
+
+\usepackage[english]{babel}    % faire du français
+\input{mainCV.tex}
+
+\begin{document}
+
+%
+% Import top of page CV (Name, photo ...)
+%
+\input{cv-top-page-en.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    Research interests                                 %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lefttitle{Research interests}
+
+% {\bf Keywords:} Model Driven Engineering, Test Model generation, Testing of Model Transformations. 
+
+% \medskip
+
+% My research takes place in the context of Model Driven Engineering. During my phd. (2013-2016), I worked in the \grimm{} project. The main objective was the automated generation of models for testing. We used constraint programming to improve performance. The issue of meaningfulness for models was tackled using probabilities and empirical study. During this work, I developed two tools: \grimm{} and \comodi.
+
+% \medskip
+
+% My current work is related to testing and verifying model transformations. I focus on exploiting the output of a verification tool to automatically generate precise and meaningful tests.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    studies                                            %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/studies}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    work                                               %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/work}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+% Publication FR                                        %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/publis-en}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+% other research                                        %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{sections/other-en}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    talks                                              %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\righttitle{notable talks}
+
+\input{sections/talks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    teaching                                           %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\righttitle{teaching}
+
+\input{sections/teaching.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    supervising                                        %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lefttitle{supervising}
+
+\begin{tabular}{r @{~~$\rangle$~} p{0.75\textwidth} l}
+
+\textbf{~~~2014} & Co-supervisor of Felix Vonthron on the encoding of OCL constraints into CSP & Master \\
+                    & Co-supervisor of Olivier Perrier on the encoding of OCL constraints into CSP & Master \\
+
+\textbf{2015} & Co-supervisor of Florian Galinier on java projects metrics & Master \\
+            
+          
+\textbf{2016} & Co-supervisor of Florian Galinier on the application of genetic algorithms for model generation & Master \\
+              & Co-supervisor of Meddy Urie on the programming of an Eclipse plug in for Grimm tool & Bachelor \\
+\end{tabular}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    association                                        %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lefttitle{community life \& volunteering}
+
+\begin{tabular}{r @{~ ~$\rangle$~} p{0.85\textwidth}}
+
+{\bf 2016 $\rightarrow$} & {\bf Web master} at association of Berber culture, Nantes \\
+
+{\bf 2014-2015} & {\bf Co-organisation} of doctoral seminars in Lirmm laboratory (Semindoc@Lirmm). \\
+
+{\bf 2014} & {\bf Co-organisation} of doctoral conference day in Montpellier (Doctiss'14). \\
+
+{\bf 2013} & {\bf Volunteering} at Ecoop, Ecsa, Ecmfa conferences in Montpellier, France. \\
+
+\textbf{2012} & \textbf{Communication Officer} of Bejaia City patrimony protection association in Algeria. \\
+
+\textbf{2011-2012} & \textbf{President} of student association in Bejaia University (CSI Bejaia). My work was to manage a team and to organize events related to Computer Science.  \\
+
+\textbf{2011} & \textbf{Coding} a web portal to an Association using .NET technologies. \\
+
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Language %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\righttitle{languages}
+
+English, French, Arabic, Berber.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lefttitle{other}
+
+\begin{tabular}{r @{~~$\rangle$~} p{0.65\textwidth}}
+
+\textbf{Programming languages} & Java, EMF, C/C++, \LaTeX, R, Pascal, Delphi, OCaml, ASP.NET, PHP, HTML/Css, Estelle, Matlab, Flex, Prolog, Kermeta. \\
+
+\end{tabular}
+
+\end{document}

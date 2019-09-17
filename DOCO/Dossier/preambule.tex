@@ -1,0 +1,134 @@
+\documentclass[10pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage[french]{babel}
+\usepackage[french]{translator}
+%%% Examples of/home/ferdjoukh/Documents/Expes02-12/montrer_refs_exploser/allsolu.tex
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+%\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage[cmex10]{amsmath}
+\usepackage{array}
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbati
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%\geometry{hmargin=3cm,vmargin=3cm}
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+%\usepackage[2cm,headings]{fullpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0.1pt} 
+\lfoot{Dossier professionnel}
+\cfoot{\thepage}
+\rfoot{Adel Ferdjoukh}
+
+
+\usepackage{multicol,multirow}
+
+\pagenumbering{arabic}
+\pagestyle{fancyplain}
+\thispagestyle{empty}
+
+
+
+\usepackage{ucs}
+\usepackage{inputenc}
+\usepackage{verbatim}
+\usepackage{moreverb}
+\usepackage{url}
+\usepackage{amsmath,amssymb}
+\usepackage[colorlinks=none,linkcolor=black,pdfborder={0 0 0}]{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{tikz}
+\usepackage{gnuplot-lua-tikz}
+\usetikzlibrary{calc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                       %
+%    Grimm                                              %    
+%                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\grimm}{$\mathcal{G}$\textsc{rimm}}
+\newcommand{\grimmtext}{$\mathcal{G}$ene\textsc{r}ating \textsc{i}nstances of \textsc{m}eta-\textsc{m}odels}
+\DeclareRobustCommand{\grrimm}{$\mathcal{G}$\reflectbox{\textsc{r}}\textsc{rimm}}
+\DeclareRobustCommand{\grrimmtext}{$\mathcal{G}$enerating \reflectbox{\textsc{r}}andomized and \textsc{r}elevant \textsc{i}nstances of \textsc{m}eta-\textsc{m}odels}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%                                   %%%%%%%%%%
+%%%%%%%%%                                       %%%%%%%%
+%%%%%%%           Pour les courbes               %%%%%%%
+%%%%%%%%%                                       %%%%%%%%
+%%%%%%%%%%%                                   %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+\usepackage{tikz}
+\usepackage{gnuplot-lua-tikz}
+
+\newcommand{\MonChapitre}[2]{%
+    \chapter[#1]{#2}
+    \minitoc
+    \addcontentsline{lof}{chapter}{%
+    Chapitre \thechapter : #2 \vspace{10pt}}
+}
+
+
+\newcommand{\MonAnnexe}[2]{%
+    \chapter[#1]{#2}
+    \minitoc
+    \addcontentsline{lof}{chapter}{%
+    Annexe \thechapter : #2 \vspace{10pt}}
+}
+
+\usepackage{ucs}
+\usepackage{url}
+
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{listings}
+\theoremstyle{definition}
+\newtheorem{example}{Exemple}
+\newtheorem{definition}{Définition}
+\newtheorem{remark}{Remarque}
+
+\usepackage{tabularx}
+\usepackage{pdfpages}
+
+\newcommand{\topfigrule}{\hrule\kern-0.4pt\relax}
+
+\newcommand{\nb}[2]{
+    \fbox{\bfseries\sffamily\scriptsize#1}
+    {\sf\small\textit{\textcolor{red}{#2}}}
+}
+
+\newcommand\cn[1]{\nb{CN}{#1}}
+\newcommand\ac[1]{\nb{AC}{#1}}
+\newcommand\ad[1]{\nb{Adel}{#1}}
+\newcommand\adel[1]{\nb{Adel}{#1}}
+\newcommand\Adel[1]{\nb{Adel}{#1}}
+
+
+\usepackage{natbib}
+\usepackage{bibentry}
+\bibliographystyle{plainnat}

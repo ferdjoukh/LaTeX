@@ -1,0 +1,9 @@
+@article{ferdjoukh18a,
+author={Ferdjoukh, Adel and Galinier, Florian and Bourreau, Eric and Chateau, Annie and Nebut, Cl{\'e}mentine},
+title={Measurement and Generation of Diversity and Meaningfulness in Model Driven Engineering},
+journal={IJAS, International Journal On Advances in Software},
+volume={11},
+number={1-2},
+year={2018},
+pages={131-146},
+}

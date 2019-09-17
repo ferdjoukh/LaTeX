@@ -1,0 +1,6 @@
+@inproceedings{ferdjoukh18b,
+author={Ferdjoukh, Adel},
+booktitle={CIEL, Conférence en IngénieriE du Logiciel},
+title={COMODI: A Tool for Model Comparison and Diversity Analysis},
+year={2018},
+}
