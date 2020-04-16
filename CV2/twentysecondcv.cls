@@ -103,6 +103,22 @@
 	}
 }
 
+\newcommand\languages[1]{ 
+	\renewcommand{\languages}{
+		\begin{flushleft}
+			#1
+		\end{flushleft}
+	}
+}
+
+\newcommand\interests[1]{ 
+	\renewcommand{\interests}{
+		\begin{flushleft}
+			#1
+		\end{flushleft}
+	}
+}
+
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
@@ -160,10 +176,18 @@
 		\profilesection{Skills}
 
 		\skills
-		\skillstext
-		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
-			
+		%\skillstext
+		%\scriptsize
+		%(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
+
+		\profilesection{Languages}
+
+		\languages
+
+		\profilesection{Interests}
+
+		\interests
+					
 		%------------------------------------------------
 			
 	\end{textblock}
