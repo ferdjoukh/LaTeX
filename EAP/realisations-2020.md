@@ -57,7 +57,10 @@ RAO et Opportunités
 | 11 | Proposition de projets pour IG CAP/ALTRAN/AIRBUS | Airbus | juin 2020 | prise en main des projets : AeroWB, OptimWB et en partie fsPostProc | **NOK** |
 | 12 | Optim WB | Airbus | juillet 2020 | Proposition d'architecture. A amené au démarrage de 1.5FTE en aout.| OK | 
 | 13 | POC Persistance modèles EMF de grande taille | Thales Alinea Space | Juillet 2020 | partie proposition technique pour la persistance des modèles EMF | OK |
-| 14 | Invest Cap-Altran DDMS Environnement | Airbus | sept 2020 | propal technique architecture outil de monitoring | NOK |
+| 14 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | sept 2020 | propal technique architecture outil de monitoring | NOK |
+| 15 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | oct 2020 | Chiffrage des activités pour l'annéee 2021 | NOK |
+| 16 | Activités Icing Q4 2020 | Airbus | Q4 2020 | Priorisation, Proposition au client et chiffrage | NOK |
+
 
 Équipe MDE
 -----------------------------
