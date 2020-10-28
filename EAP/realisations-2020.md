@@ -129,6 +129,8 @@ Aspects Team
 	- AAA et plusieurs membres de l'équipe
 	- Organisation d'un vote pour choisir le nouveau nom
 	- Écriture d'un pitch pour présenter l'équipe
+1. Représenter Altran à l'IUT de Blagnac
+	- Enseignement de TP de *Méthodes de Production d'applications* avec Jean-Michel Bruel.	
 
 #### CANDs
 
@@ -144,8 +146,6 @@ Aspects Team
 1. Recrutement Youness Laghouaouta
 	1. CAND TEL **20/7/2020**
 	
-
-
 Autres
 -------------------------------
 
