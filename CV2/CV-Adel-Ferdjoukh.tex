@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{me3.png} % Profile picture
+
+\cvname{Adel Ferdjoukh} % Your name
+\cvjobtitle{Software Architect} % Job title/career
+
+\cvdate{29 years} % Date of birth
+\cvaddress{Toulouse, France} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+33 695 55 89 13} % Phone number
+\cvsite{www.adel-ferdjoukh.ovh} % Personal website
+\cvmail{ferdjoukh@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I obtained a PhD. in computer science (software engineering). I worked as a researcher and university teacher in several labs in France and Austria. Currently, I am a technical leader at Altran in Toulouse. I am responsible of an R\&D project and I supervise developers for client projects on Model Based Software Engineering and Agile Frameworks.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Project Management/3.5},{Agile frameworks/4.5},{Shell/4.5},{Eclipse EMF, RCP/5.5},{Java/5.5},{Model Based Software Engineering/6}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{last{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+\languages{French, English, Arabic, Kabyle, German (beginner)}
+
+\interests{Travel, History, Geography and Sport.}
+
+\makeprofile % Print the sidebar
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{since 2019}{Software Technical Leader}{Altran Technologies}{I joined Altran as a software developer in Model Based Software and Java. I became the leader of an R\&D project. Currently, I am the technical leader for {\it Model Based Software Engineering} offers and I supervise developers on client projects (eg. Airbus)}
+
+	\twentyitem{2018}{Researcher \& Teacher}{Technische Universitat Wien}{I was conducting research on Model Driven Engineering and I gave courses on Graphical Modelling in English}
+
+	\twentyitem{2016-2018}{Researcher \& Teacher}{Universite de Nantes}{I was responsible of students groups for many computer science courses : programming, databases, web programming and I conducted researches on Model Driven Engineering}
+
+	\twentyitem{2013-2016}{Young Researcher}{Universite de Montpellier}{I was preparing my PhD in computer science in {\it Lirmm} research lab and teaching computer science courses in the {\it Faculty of Sciences}}
+	
+%	\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2013-2016}{Ph.D. {\normalfont candidate in Computer Science}}{Universite de Montpellier}{\emph{A Declarative Approach for Model Generation}}
+	\twentyitem{2012-2013}{Master in Computer Science}{Universite de Montpellier}{Specializing in Software Engineering}
+	\twentyitem{2011-2013}{Master in Computer Science}{Universite de Bejaia}{Specializing in Networks and Distributed Systems}
+	\twentyitem{2008-2011}{Bachelor}{Universite de Bejaia}{Specializing in mathematics and informatics.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Notable Facts}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{Publications}{10 papers in journal, international conferences or workshops}
+	\twentyitemshort{Best Paper}{ICSEA 2017, Athens, Greece}
+	\twentyitemshort{Talks}{Montpellier, Nantes, Lille, Angers, Paris, Bordeaux, Washington DC, San Francisco, Oslo, Copenhagen, Athens \& Vienna.}
+	\twentyitemshort{Teaching}{+700 hours teaching in 3 universities and +10 different topics.}
+	\twentyitemshort{Industrials}{Airbus, Dassault, Safran}
+	\twentyitemshort{Certification}{Professional Scrum Master I}
+\end{twentyshort}
+
+\begin{flushright}
+\includegraphics[scale=0.08]{psmi.png}
+\end{flushright}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+\twentyitem{HQ Workbe.}{Architect \& Scrum Master}{Airbus}{Digital Transformation of HQ Data and Tools}
+\twentyitem{IPad}{Technical Leader}{Airbus}{A workbench for aerodynamics studies}
+\twentyitem{Icing}{Technical Leader \& Developer}{Airbus}{A Workbench for Icing Tools \& Data}
+\twentyitem{Optimind}{R\&D Project Leader}{Altran Research}{A Model-Driven toolbox for engineers}
+\twentyitem{Rumor}{Developer}{Airbus}{Automate and migrate simulation tools}
+\twentyitem{Grimm}{Architect \& Developer}{Lirmm}{Automatic Model Generator}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{4mm}
+\begin{flushright}
+\small
+last update \today{}
+\end{flushright}
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
