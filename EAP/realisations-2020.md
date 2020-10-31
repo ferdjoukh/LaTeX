@@ -60,7 +60,7 @@ RAO et Opportunités
 | 14 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | sept 2020 | propal technique architecture outil de monitoring | NOK |
 | 15 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | oct 2020 | Chiffrage des activités pour l'annéee 2021 | NOK |
 | 16 | Activités Icing Q4 2020 | Airbus | Q4 2020 | Priorisation, Proposition au client et chiffrage | NOK |
-
+| 17 | DSL with JetBrain MPS | Audi AG | oct 2020 | Etude, discussion client, NoGo | NOK |
 
 Équipe MDE
 -----------------------------
