@@ -61,6 +61,8 @@ RAO et Opportunités
 | 15 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | oct 2020 | Chiffrage des activités pour l'annéee 2021 | NOK |
 | 16 | Activités Icing Q4 2020 | Airbus | Q4 2020 | Priorisation, Proposition au client et chiffrage | NOK |
 | 17 | DSL with JetBrain MPS | Audi AG | oct 2020 | Etude, discussion client, NoGo | NOK |
+| 18 | Entreprise Architect  | Volkswagen | oct 2020 | Etude, discussion client, Perdu | NOK |
+
 
 Équipe MDE
 -----------------------------
