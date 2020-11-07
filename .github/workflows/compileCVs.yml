@@ -29,6 +29,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Compile CV
         run: | 
+          sudo apt-get install tex-live
           echo "Compile CV"
           cd CV
           make
