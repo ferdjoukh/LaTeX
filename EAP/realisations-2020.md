@@ -62,6 +62,9 @@ RAO et Opportunités
 | 16 | Activités Icing Q4 2020 | Airbus | Q4 2020 | Priorisation, Proposition au client et chiffrage | NOK |
 | 17 | DSL with JetBrain MPS | Audi AG | oct 2020 | Etude, discussion client, NoGo | NOK |
 | 18 | Entreprise Architect  | Volkswagen | oct 2020 | Etude, discussion client, Perdu | NOK |
+| 19 | SharCC  | BOSCH | dec 2020 | Etude, discussion client, Slides Offres | NOK |
+| 20 | Automatisation Cost Engine  | FCCY | dec 2020 | Démo interne | NOK |
+
 
 
 Équipe MDE
@@ -133,6 +136,8 @@ Aspects Team
 	- Écriture d'un pitch pour présenter l'équipe
 1. Représenter Altran à l'IUT de Blagnac
 	- Enseignement de TP de *Méthodes de Production d'applications* avec Jean-Michel Bruel.	
+1. Création d'un utilitaire en Java pour automatiser la génération de référence projet.
+1. Création d'une petite formation + template de code pour bien démarrer un projet RCP avec Maven/Tycho.
 
 #### CANDs
 
@@ -147,6 +152,12 @@ Aspects Team
 	3. Remplissage dossier
 1. Recrutement Youness Laghouaouta
 	1. CAND TEL **20/7/2020**
+1. Recrutement Hayet Bekerrou
+	1. Sourcing + PreKall
+	1. Demande Doco
+	1. Entretien technique
+1. Recrutement Khadidja MEGUELATI
+	1. Entretien technique Java + Ontologies **30/11/2020**	 
 	
 Autres
 -------------------------------
