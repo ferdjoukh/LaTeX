@@ -11,6 +11,7 @@ Synopsis
 1. [Équipe MDE](#equipe-mde)
 1. [Formation MDE](#formation-mde)
 1. [Aspects Team](#aspects-team)
+1. [Retours Clients](#retours-clients)
 1. [Autres](#autres)
 
 
@@ -99,6 +100,11 @@ RAO et Opportunités
 
 1. Jona Schmatzler (100%)
 1. Amine Messous (100%)
+1. Formation et suivi JD (Issaad Kacem)
+1. Formation et suivi technique de 3 développeurs
+	- Ayoub O.
+	- Rekha P. K.
+	- Julien R. 
 
 Formation MDE
 ------------------------------
@@ -114,6 +120,9 @@ Formation MDE
 	- Enrichissement 2020 avec un module sur **Sirius**
 
 1. Session POEI : 20/5/2020 (7 heures)
+
+1. Création d'une petite formation + template de code pour bien démarrer un projet RCP avec Maven/Tycho.
+
 
 Aspects Team
 ------------------------------
@@ -137,7 +146,6 @@ Aspects Team
 1. Représenter Altran à l'IUT de Blagnac
 	- Enseignement de TP de *Méthodes de Production d'applications* avec Jean-Michel Bruel.	
 1. Création d'un utilitaire en Java pour automatiser la génération de référence projet.
-1. Création d'une petite formation + template de code pour bien démarrer un projet RCP avec Maven/Tycho.
 
 #### CANDs
 
@@ -158,7 +166,16 @@ Aspects Team
 	1. Entretien technique
 1. Recrutement Khadidja MEGUELATI
 	1. Entretien technique Java + Ontologies **30/11/2020**	 
-	
+
+
+Retours clients
+-------------------------------
+
+1. Charly Muteau (Airbus/IYCIS) Projet HQ Workbench
+1. Xavier Bertrand (Arbus/IGA) Projet IPad
+1. Julien Cliquet et Christophe Peotsch (Airbus/IGDC) Projet Icing
+
+
 Autres
 -------------------------------
 
