@@ -58,13 +58,13 @@ RAO et Opportunités
 | 11 | Proposition de projets pour IG CAP/ALTRAN/AIRBUS | Airbus | juin 2020 | prise en main des projets : AeroWB, OptimWB et en partie fsPostProc | **NOK** |
 | 12 | Optim WB | Airbus | juillet 2020 | Proposition d'architecture. A amené au démarrage de 1.5FTE en aout.| OK | 
 | 13 | POC Persistance modèles EMF de grande taille | Thales Alinea Space | Juillet 2020 | partie proposition technique pour la persistance des modèles EMF | OK |
-| 14 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | sept 2020 | propal technique architecture outil de monitoring | NOK |
-| 15 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | oct 2020 | Chiffrage des activités pour l'annéee 2021 | NOK |
+| 14 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | sept 2020 | propal technique architecture outil de monitoring | OK |
+| 15 | Invest Cap-Altran DDMS Environnement (session II) | Airbus | oct 2020 | Chiffrage des activités pour l'annéee 2021 | OK |
 | 16 | Activités Icing Q4 2020 | Airbus | Q4 2020 | Priorisation, Proposition au client et chiffrage | NOK |
-| 17 | DSL with JetBrain MPS | Audi AG | oct 2020 | Etude, discussion client, NoGo | NOK |
-| 18 | Entreprise Architect  | Volkswagen | oct 2020 | Etude, discussion client, Perdu | NOK |
-| 19 | SharCC  | BOSCH | dec 2020 | Etude, discussion client, Slides Offres | NOK |
-| 20 | Automatisation Cost Engine  | FCCY | dec 2020 | Démo interne | NOK |
+| 17 | DSL with JetBrain MPS | Audi AG | oct 2020 | Etude, discussion client, NoGo | OK |
+| 18 | Entreprise Architect  | Volkswagen | oct 2020 | Etude, discussion client, Perdu | OOK |
+| 19 | SharCC  | BOSCH | dec 2020 | Etude, discussion client, Slides Offres | OK |
+| 20 | Formulaire Usine (JS, Java)  | Ratier Figeac | dec 2020 | Réunion + Démo client | OK |
 
 
 
