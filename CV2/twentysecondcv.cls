@@ -119,6 +119,14 @@
 	}
 }
 
+\newcommand\text[1]{ 
+	\renewcommand{\text}{
+		\begin{flushleft}
+			#1
+		\end{flushleft}
+	}
+}
+
 %----------------------------------------------------------------------------------------
 %	 SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
@@ -173,10 +181,13 @@
 
 		%------------------------------------------------
 
-		\profilesection{Skills}
+		\profilesection{Main Skills}
 
 		\skills
-		%\skillstext
+		
+		{\bf Others :}
+
+		\text
 		%\scriptsize
 		%(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 
