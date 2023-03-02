@@ -195,9 +195,9 @@
 
 		\languages
 
-		\profilesection{Interests}
+		%\profilesection{Interests}
 
-		\interests
+		%\interests
 					
 		%------------------------------------------------
 			
